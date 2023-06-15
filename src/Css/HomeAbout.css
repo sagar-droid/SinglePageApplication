@@ -1,0 +1,57 @@
+.mainSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contentBox{
+    width: 40%;
+     padding-left: 1rem;
+     align-items: right;
+}
+.contentBox h1{
+    font-size: 2.5rem;
+}
+.contentBox p{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    font-family: 'Poppins',sans-serif;
+}
+.readMore{
+    color: white ;
+}
+.readMore:hover{
+    color: black;
+}
+.mainSection img{
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+    height: 100vh;
+}
+@media screen and (max-width:900px){
+    html{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:700px){
+    html{
+        font-size: 11px;
+    }
+    .mainSection{
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .contentBox h1{
+        font-size: 2rem;
+    }
+    .contentBox p{
+        font-size: 1.1rem;
+
+    }
+}
+@media screen and (max-width:420px)
+{
+    html{
+        font-size: 9px;
+    }
+}

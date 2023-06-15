@@ -1,0 +1,46 @@
+/* Footer container */
+footer {
+    background-color: #fff; 
+    color:#333;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+  }
+  
+footer .icon {
+    margin-top: 10px;
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 50%;
+    margin-right: 2px;
+    align-items: left;
+  }
+  footer .icon:hover {
+    color: var(--color-primary);
+  }
+  .copyright{
+    font-size: 14px;
+  color: #888;
+  text-align: center;
+  margin-top: 10px;
+  }
+  
+  /* Responsive footer */
+  @media (max-width: 768px) {
+    .footer {
+      text-align: center;
+    }
+    
+    .footer .social-icons {
+      margin-top: 20px;
+    }
+    
+    .footer .social-icons a {
+      margin-right: 5px;
+    }
+  }
